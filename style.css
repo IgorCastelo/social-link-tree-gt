@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container-main{
+width: 560;
+}
+.container-main{
+    background-color: #4b5358;
+    width: 540px;
+    height: 720px;
+    box-sizing: border-box;
+    margin: 120px auto;
+    padding: 60px;
+
+}
+.container-image{
+    width: 100px;
+    & img{
+        
+        width: 100px;
+        border-radius: 50px;
+    }
+}
