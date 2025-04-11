@@ -1,0 +1,52 @@
+@import url("./effects.css");
+*{
+    margin: 0;
+    padding: 0;
+}   
+body{
+    background-color: black;background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    animation: gradientShift 10s ease infinite;
+    background-size: 400px;
+.container-main{
+width: 560;
+background-color: #020024;
+
+
+}
+.container-main{
+    background-color: #4b5358;
+    width: 540px;
+    height: 720px;
+    box-sizing: border-box;
+    margin: 120px auto;
+    padding: 60px;
+
+}
+.container-image{
+    width: 100px;
+    & img{
+        
+        width: 100px;
+        border-radius: 50px;
+    }
+}
+.container-social ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container-social li{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    width: 280;
+    height: 40;
+    background-color: #005184;
+    &:hover{
+        background-color: #005184;
+        transform: scale(1.1);
+        }
+}
+}
